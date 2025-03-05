@@ -34,11 +34,11 @@ else:
 
 ALLOWED_HOSTS = [
                 'localhost', '127.0.0.1', 
-                'example.com'
+                'deployment-demo.up.railway.app'
                 ]
 
 CSRF_TRUSTED_ORIGINS = [ 
-                'https://example.com',
+                'deployment-demo.up.railway.app',
                 ]
 
 
